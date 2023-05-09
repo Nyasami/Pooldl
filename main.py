@@ -1,7 +1,5 @@
 import tkinter as tk
 from tkinter import filedialog
-from tkinter.scrolledtext import ScrolledText
-import sys
 import gsAPI
 def browse_folder(folder_path_entry):
     folder_path = filedialog.askdirectory()
