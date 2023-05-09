@@ -12,14 +12,14 @@ You need Python 3.x.x to run the script, then open cmd in the folder and type:
 pip install -r requirements.txt
 ```
 ## Setup
+### Update v1.1.0: Now you don't have to do these steps below, just authorize the app then it'll be okay, if it shows a warning, click onto the advaced option and click continue to Pool DL, after you authorize it, you won't have to do it again! ( It's okay trust me 100% not malware )
+~~Go to https://console.cloud.google.com/projectselector2/apis/dashboard and create a new project, name the project to anything you like then press create.~~
 
-Go to https://console.cloud.google.com/projectselector2/apis/dashboard and create a new project, name the project to anything you like then press create.
+~~Click onto the credential tab then find the `+ Create Credentials` button, click on it and choose `Service Account`, name it again to anything then click `Create and continue`, then you just need to press done.~~
 
-Click onto the credential tab then find the `+ Create Credentials` button, click on it and choose `Service Account`, name it again to anything then click `Create and continue`, then you just need to press done.
+~~Now there should have an account in the `Service Accounts` section, click onto that account, go to the `KEYS` tab and click `ADD KEY` --> `Create new key` --> choose JSON and create.~~
 
-Now there should have an account in the `Service Accounts` section, click onto that account, go to the `KEYS` tab and click `ADD KEY` --> `Create new key` --> choose JSON and create.
-
-Now you should have a JSON file downloaded, rename it to `credential.json` and replace the original json file by paste the file into the app's folder and you're all set!
+~~Now you should have a JSON file downloaded, rename it to `credential.json` and replace the original json file by paste the file into the app's folder and you're all set!~~
 
 ## Usage
 
